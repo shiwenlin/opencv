@@ -91,6 +91,7 @@ public class OpenCv {
 
             /*
             如果精度高，可以通过像素计算
+          for (RectComp rc : RectCompList) {
             int x = RectCompList.get(t).getRm().x - 16;
             int y = RectCompList.get(t).getRm().y - 94;
 
@@ -105,7 +106,9 @@ public class OpenCv {
                 xTitleNum++;
             }
             xTitleNum = xTitleNum - xSplit;
-            System.out.println(xTitleNum);*/
+            System.out.println(xTitleNum);
+            }
+            */
 
 
         //根据 Y轴 确定被选择答案 (A\B\C\D)
