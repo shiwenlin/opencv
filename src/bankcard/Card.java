@@ -1,4 +1,4 @@
-package card;
+package bankcard;
 
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
@@ -20,7 +20,7 @@ public class Card {
 
     public static void main(String[] args) {
         // 读取图像，参数为图像的存储路径
-        Mat source = Imgcodecs.imread("D://card.jpg");
+        Mat source = Imgcodecs.imread("D://bankcard.jpg");
 
         runCanny(source);
 

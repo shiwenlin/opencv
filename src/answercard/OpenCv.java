@@ -1,4 +1,4 @@
-package lsw;
+package answercard;
 
 import org.opencv.core.*;
 import org.opencv.imgcodecs.Imgcodecs;
@@ -11,7 +11,7 @@ import static org.opencv.imgproc.Imgproc.MORPH_RECT;
 
 
 /**
- * @author  lsw
+ * @author  answercard
  * @email lsw_demail@163.com
  */
 public class OpenCv {
@@ -46,7 +46,7 @@ public class OpenCv {
         Imgproc.erode(srcImage3, srcImage4, element);
         //膨胀操作
         Imgproc.dilate(srcImage4, srcImage5, element);
-        //Imgcodecs.imwrite("E:/picpool/card/enresults.jpg", srcImage4);
+        //Imgcodecs.imwrite("E:/picpool/bankcard/enresults.jpg", srcImage4);
 
         //确定每张答题卡的ROI区域
         Mat imag_ch1 = srcImage4.submat(new Rect(200, 1065, 1930, 2210));
