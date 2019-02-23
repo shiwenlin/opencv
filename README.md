@@ -1,2 +1,7 @@
-# opencv
-java opencv demo
+# java跟opencv实现图片识别功能
+
+此项目功能点：
+1.java项目的opencv引入
+2.银行卡图片数字提取
+3.填图答题卡区域定位
+
